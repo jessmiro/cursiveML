@@ -13,7 +13,8 @@ Images to CSV: https://stackoverflow.com/questions/49070242/converting-images-to
 Preprocessing Padding: https://www.geeksforgeeks.org/add-padding-to-the-image-with-python-pillow/
 Handwriting recognition model using tensorflow: https://github.com/Arnav1145/Handwritten-Character-Recognition/blob/main/Character%20recognition.ipynb
 
-
+datafiles in kaggle link: (Make sure to grab it from datafileszipped) https://www.kaggle.com/datasets/jessicamironyuk/cursivehandwriting?select=datafileszipped
+df_resized in kaggle link: https://www.kaggle.com/datasets/jessicamironyuk/cursive-handwriting-preprocessed
 
 
 **Files:**
@@ -28,10 +29,10 @@ Preprocessing was done so that we could have smaller grayscale value matrices to
 CNN model. I also made quite a few changes to the original code as that code assumed a single csv file containing the image matrices and the image labels. My data was 
 split between a csv file containing just the matrices and another csv containing the image names and the labels. 
 
-**datafiles folder:** Contains my original image data. There's around 1800 images, all of cursive characters. Data collection was done by hand, as I felt that scraping 
+**datafiles in kaggle:** Contains my original image data. There's around 1800 images, all of cursive characters. Data collection was done by hand, as I felt that scraping 
 using code would take much longer and provide less quality data. The data in this file is post-parced for unreadable data (Original dataset size was 2000 images).
 
-**df_resized folder:** Contains the preprocessed and resized image data.
+**df_resized in kaggle:** Contains the preprocessed and resized image data.
 
 **output_final.csv:** The matrices corresponding to the image data.
 
