@@ -25,7 +25,7 @@ df_resized in kaggle link: https://www.kaggle.com/datasets/jessicamironyuk/cursi
 
 **Files:**
 
-**
+**dataset.py:** Since I had a bunch of screenshots in a folder and a list of the corresponding labels, this was for linking the screenshots and labels together in a .csv file.
 
 **preprocc.py:** Preproccessing my data. Padded the image to a square, increased brightness, increased contrast, converted to grayscale, and resize to 28x28 pixels.
 Preprocessing was done so that we could have smaller grayscale value matrices to work with. But before that, we needed to make sure the data was all the same size
