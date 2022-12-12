@@ -14,7 +14,7 @@ Preprocessing Padding: https://www.geeksforgeeks.org/add-padding-to-the-image-wi
 Handwriting recognition model using tensorflow: https://github.com/Arnav1145/Handwritten-Character-Recognition/blob/main/Character%20recognition.ipynb
 
 
-** My Datasets (couldn't get it to upload to github) **
+**My Datasets (couldn't get it to upload to github)**
 datafiles in kaggle link: (Make sure to grab it from datafileszipped) https://www.kaggle.com/datasets/jessicamironyuk/cursivehandwriting?select=datafileszipped
 
 df_resized in kaggle link: https://www.kaggle.com/datasets/jessicamironyuk/cursive-handwriting-preprocessed
