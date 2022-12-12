@@ -17,26 +17,27 @@ Handwriting recognition model using tensorflow: https://github.com/Arnav1145/Han
 
 
 **Files:**
-preprocc.py: Preproccessing my data. Padded the image to a square, increased brightness, increased contrast, converted to grayscale, and resize to 28x28 pixels.
+
+**preprocc.py:** Preproccessing my data. Padded the image to a square, increased brightness, increased contrast, converted to grayscale, and resize to 28x28 pixels.
 Preprocessing was done so that we could have smaller grayscale value matrices to work with. But before that, we needed to make sure the data was all the same size
 (padding and resizing) and that it was easy to see where the characters began/stopped (brightness, contrast, grayscale).
 
-png_to_csv.py: Converting the images (.png) to csv values, and then storing it to a single csv document.
+**png_to_csv.py:** Converting the images (.png) to csv values, and then storing it to a single csv document.
 
-modelTest.py: This is where the model lives. I have some additional preproccessing/pre-model code in the same folder. Tensorflow + keras was used to implement the CNN
-model. I also made quite a few changes to the original code as that code assumed a single csv file containing the image matrices and the image labels. My data was split 
-between a csv file containing just the matrices and another csv containing the image names and the labels. 
+**modelTest.py:** This is where the model lives. I have some additional preproccessing/pre-model code in the same folder. Tensorflow + keras was used to implement the 
+CNN model. I also made quite a few changes to the original code as that code assumed a single csv file containing the image matrices and the image labels. My data was 
+split between a csv file containing just the matrices and another csv containing the image names and the labels. 
 
-dataTest folder: Contains my original image data. There's around 1800 images, all of cursive characters. Data collection was done by hand, as I felt that scraping using 
-code would take much longer and provide less quality data. The data in this file is post-parced for unreadable data (Original dataset size was 2000 images).
+**dataTest folder:** Contains my original image data. There's around 1800 images, all of cursive characters. Data collection was done by hand, as I felt that scraping 
+using code would take much longer and provide less quality data. The data in this file is post-parced for unreadable data (Original dataset size was 2000 images).
 
-df_resized folder: Contains the preprocessed and resized image data.
+**df_resized folder:** Contains the preprocessed and resized image data.
 
-output_final.csv: The matrices corresponding to the image data.
+**output_final.csv:** The matrices corresponding to the image data.
 
-labels_copy.csv: Contains four columns: image names, labels, labels in ASCII format, and labels post %97 for much more usable corresponding char values
+**labels_copy.csv:** Contains four columns: image names, labels, labels in ASCII format, and labels post %97 for much more usable corresponding char values
 
-best_model.h5: Result of running the code
+**best_model.h5:** Result of running the code
 
 
 
