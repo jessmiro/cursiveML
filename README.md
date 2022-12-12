@@ -16,7 +16,7 @@ Handwriting recognition model using tensorflow: https://github.com/Arnav1145/Han
 
 
 
-Files:
+**Files:**
 preprocc.py: Preproccessing my data. Padded the image to a square, increased brightness, increased contrast, converted to grayscale, and resize to 28x28 pixels.
 Preprocessing was done so that we could have smaller grayscale value matrices to work with. But before that, we needed to make sure the data was all the same size
 (padding and resizing) and that it was easy to see where the characters began/stopped (brightness, contrast, grayscale).
