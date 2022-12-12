@@ -28,7 +28,7 @@ Preprocessing was done so that we could have smaller grayscale value matrices to
 CNN model. I also made quite a few changes to the original code as that code assumed a single csv file containing the image matrices and the image labels. My data was 
 split between a csv file containing just the matrices and another csv containing the image names and the labels. 
 
-**dataTest folder:** Contains my original image data. There's around 1800 images, all of cursive characters. Data collection was done by hand, as I felt that scraping 
+**datafiles folder:** Contains my original image data. There's around 1800 images, all of cursive characters. Data collection was done by hand, as I felt that scraping 
 using code would take much longer and provide less quality data. The data in this file is post-parced for unreadable data (Original dataset size was 2000 images).
 
 **df_resized folder:** Contains the preprocessed and resized image data.
@@ -46,7 +46,7 @@ using code would take much longer and provide less quality data. The data in thi
 
 This code can be run during different intervals at a time. 
 
-To start from the beginning, download just the dataTest folder and replace the location in preprocc.py. Then use the results of that program to run png_to_csv.py after 
+To start from the beginning, download just the datafiles folder and replace the location in preprocc.py. Then use the results of that program to run png_to_csv.py after 
 replacing the location, and then use the results to run modelTest.py. Make sure to replace the location in the code and also download the labels_copy.csv and replace 
 the location in the code. 
 
