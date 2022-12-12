@@ -9,9 +9,9 @@ Since I wanted to see how my model compared to already existing work and because
 model. Because of this, my own comments include "#J:" as I didn't want to remove the original comments.
 
 Links to the code I used:
-Images to CSV: https://stackoverflow.com/questions/49070242/converting-images-to-csv-file-in-python \n
-Preprocessing Padding: https://www.geeksforgeeks.org/add-padding-to-the-image-with-python-pillow/ \n
-Handwriting recognition model using tensorflow: https://github.com/Arnav1145/Handwritten-Character-Recognition/blob/main/Character%20recognition.ipynb \n
+Images to CSV: https://stackoverflow.com/questions/49070242/converting-images-to-csv-file-in-python /n
+Preprocessing Padding: https://www.geeksforgeeks.org/add-padding-to-the-image-with-python-pillow/ /n
+Handwriting recognition model using tensorflow: https://github.com/Arnav1145/Handwritten-Character-Recognition/blob/main/Character%20recognition.ipynb /n
 
 
 **My Datasets (couldn't get it to upload to github)**
