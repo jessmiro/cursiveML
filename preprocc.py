@@ -43,7 +43,7 @@ for images in os.listdir(folder_dir):
         
        #J: here is where we create a new image with the padding
        #J: where the padding is added around the original image
-       #J: we pad using black. I didn't realize until post preprocessing that 249 wasn't the max
+       #J: we pad using white. I didn't realize until post preprocessing that 249 wasn't the max
         result = Image.new(img.mode, (int(width), int(height)), (249, 249, 249))
         result.paste(img, (int(width_split_l), int(height_split_l)))
        
