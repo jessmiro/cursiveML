@@ -9,9 +9,11 @@ Since I wanted to see how my model compared to already existing work and because
 model. Because of this, my own comments include "#J:" as I didn't want to remove the original comments.
 
 Links to the code I used:
-Images to CSV: https://stackoverflow.com/questions/49070242/converting-images-to-csv-file-in-python /n
-Preprocessing Padding: https://www.geeksforgeeks.org/add-padding-to-the-image-with-python-pillow/ /n
-Handwriting recognition model using tensorflow: https://github.com/Arnav1145/Handwritten-Character-Recognition/blob/main/Character%20recognition.ipynb /n
+Images to CSV: https://stackoverflow.com/questions/49070242/converting-images-to-csv-file-in-python 
+
+Preprocessing Padding: https://www.geeksforgeeks.org/add-padding-to-the-image-with-python-pillow/
+
+Handwriting recognition model using tensorflow: https://github.com/Arnav1145/Handwritten-Character-Recognition/blob/main/Character%20recognition.ipynb 
 
 
 **My Datasets (couldn't get it to upload to github)**
@@ -22,6 +24,8 @@ df_resized in kaggle link: https://www.kaggle.com/datasets/jessicamironyuk/cursi
 
 
 **Files:**
+
+**
 
 **preprocc.py:** Preproccessing my data. Padded the image to a square, increased brightness, increased contrast, converted to grayscale, and resize to 28x28 pixels.
 Preprocessing was done so that we could have smaller grayscale value matrices to work with. But before that, we needed to make sure the data was all the same size
@@ -43,6 +47,8 @@ using code would take much longer and provide less quality data. The data in thi
 **labels_copy.csv:** Contains four columns: image names, labels, labels in ASCII format, and labels post %97 for much more usable corresponding char values
 
 **best_model.h5:** Result of running the code
+
+
 
 
 
